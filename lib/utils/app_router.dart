@@ -1,22 +1,29 @@
+import 'package:alemeno_game_internship/constants/route.dart';
 import 'package:alemeno_game_internship/screens/land_clicked_picutre.dart';
 import 'package:alemeno_game_internship/screens/land_home.dart';
+import 'package:alemeno_game_internship/screens/land_share_picture.dart';
+import 'package:alemeno_game_internship/screens/message.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
   static Route onGeneratreRoute(RouteSettings routeSettings) {
     switch (routeSettings.name) {
-      case '/':
+      case homeRoute:
         return MaterialPageRoute(
           builder: (context) => const LandHomeScreen(),
         );
 
-      case '/landClickPicture':
+      case landPictureRoute:
         return MaterialPageRoute(
           builder: (context) => const LandClickPictureScreen(),
         );
-      case '/landSharePicture':
+      case landSharePictureRoute:
         return MaterialPageRoute(
-          builder: (context) => const LandClickPictureScreen(),
+          builder: (context) => const LandSharePictureScreen(),
+        );
+      case message:
+        return MaterialPageRoute(
+          builder: (context) => const MessageScreen(),
         );
 
       default:

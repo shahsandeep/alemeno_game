@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "50212051770",
+    "project_id": "alemeno-game",
+    "storage_bucket": "alemeno-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50212051770:android:d05d2bb313074e5b460e03",
+        "android_client_info": {
+          "package_name": "com.example.alemeno_game_internship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50212051770-uotqu2a6ht146npf68iifoqt5b3v4okl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUUD47NFCdMfBbZlLHs69iQzD0TqQqDp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50212051770-uotqu2a6ht146npf68iifoqt5b3v4okl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
